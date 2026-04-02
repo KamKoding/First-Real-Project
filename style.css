@@ -133,6 +133,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 input, textarea {
@@ -186,5 +187,38 @@ footer {
 
     ul {
         display: none;
+    }
+
+    .section__description {
+        flex-direction: column;
+    }
+
+    .section__description--wrapper {
+        width: 100%;
+    }
+
+    .about__img--wrapper {
+        width: 100%;
+    }
+
+    #discord .section__description {
+        flex-direction: column-reverse;
+    }
+
+    footer {
+        padding: 48px 24px;
+    }
+
+    .footer_logo {
+        max-width: 400px;
+    }
+
+    .footer_link {
+        padding: 0 4px;
+        font-size: 18px;
+    }
+
+    .footer_links {
+        margin-bottom: 24px;
     }
 }
